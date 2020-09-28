@@ -1,0 +1,141 @@
+body {
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+}
+.navbar {
+  background: #fff;
+  height: 100px;
+  font-family: inherit;
+}
+.navbar .nav-link {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+
+  color: rgba(0, 0, 0, 0.55);
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+  font-size: 14px;
+
+  font-weight: 500;
+  line-height: 50px;
+  margin: 0 15px;
+  transition: opacity 0.2s;
+}
+h1 {
+  color: #000;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -0.76px;
+  line-height: 44px;
+  font-family: inherit;
+}
+p {
+  color: rgba(0, 0, 0, 0.55);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 0 27px;
+  max-width: 350px;
+  text-align: left;
+  word-break: keep-all;
+}
+h2 {
+  font-weight: 600;
+}
+
+input[type="text"] {
+  background: rgba(0, 0, 0, 0.04);
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 1);
+  display: block;
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+  font-size: 15px;
+  height: 36px;
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  width: 320px;
+}
+input[type="password"] {
+  background: rgba(0, 0, 0, 0.04);
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 1);
+  display: block;
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+  font-size: 15px;
+  height: 36px;
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  width: 320px;
+}
+.btn-primary {
+  border-radius: 24px;
+  color: #fff;
+  display: block;
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 19px;
+  margin: 20px 0 12px;
+  padding: 2px 20px 0;
+  width: auto;
+}
+
+#headingGroup {
+  padding: 2px 20px 0;
+  width: 286px;
+}
+#gallery {
+  margin-top: 178px;
+}
+#sign_in {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  font-weight: 400;
+}
+.forget a {
+  color: rgba(0, 0, 0, 0.4);
+  display: inherit;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+  text-align: left;
+  font-family: inherit;
+}
+#app a {
+  margin-bottom: 10px;
+}
+.icons {
+  margin-bottom: 2px;
+}
+.footer {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .links ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .links ul li a {
+  color: #828282;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+.footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
